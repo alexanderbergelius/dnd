@@ -14,20 +14,20 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    grid-row: 7/8 ; /* 1/2 */ 
+    grid-row: 1/2 ; 
     }
  
   
 section{                    /* Denna skapar strukturen för allt under rubruk och meny men över fottern*/
   grid-column: 1 / -1;
-   grid-row: 9/10 ;  /* 3/4 */
+   grid-row: 3/4 ;  
    /* display: flex;          /* placerar barnen i antingen x eller y led. Ungefär som grid bara att grid även gör det i z led*/
    flex-direction: column; 
     }
 
     footer{
       grid-column:1/-1;
-      grid-row: 11/12; /* 5/6 */
+      grid-row: 5/6;
      /* display: flex;
       flex-direction: column; */
     }

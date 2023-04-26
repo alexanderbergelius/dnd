@@ -15,30 +15,21 @@ body{
 }
 
 header{
+<<<<<<< HEAD
     /*background-color: rgb(255, 255, 255);*/
     font-family: 'Bree Serif', serif;
 font-family: 'DM Serif Display', serif;
 font-family: 'Lobster', cursive;
+=======
+    background-color: rgb(255, 255, 255);
+>>>>>>> parent of 4c21595 (venne)
 }
 
  h1 { display: flex;
   flex-direction: column;
   text-align: center;
-  text-shadow: 2px 2px red;
-  font-family: 'Bree Serif', serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Lobster', cursive;
 
 } 
-
-h2 {
-  text-decoration-line: underline;
-  text-decoration-color: red;
-  font-family: 'Bree Serif', serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Lobster', cursive;
-}
-
 
 section{
     background-color: rgb(255, 255, 255);
@@ -48,25 +39,9 @@ section{
 footer{
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    font-family: 'Bree Serif', serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Lobster', cursive;
 }
 
-img{
-  border:10px solid #555;
-}
-
-p {
-  font-family: 'Bree Serif', serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Lobster', cursive;
-}
-
-/*#dragonleft{ 
-  float: left;
-}       */ 
-
+        
 #navbar {
   background-color: #333;
   position: fixed;
