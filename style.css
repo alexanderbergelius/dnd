@@ -1,10 +1,21 @@
 
+/* *{
+ margin-top: 30px;
+} */ 
+
+body{
+ /* background-image: url("img/drake.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+}
 .container {
-    background-color: crimson;
+   /* background-color: crimson;*/
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     font-family: 'Bree Serif', serif;
 font-family: 'DM Serif Display', serif;
 font-family: 'Lobster', cursive;
