@@ -44,6 +44,7 @@ section{                    /* Denna skapar strukturen för allt under rubruk oc
       grid-column: 4 / 10;
     }
   
+    
 
     @media  screen and (max-width: 760px) {
       header{                   /* gör Rubrikens utformning*/
