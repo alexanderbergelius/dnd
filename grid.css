@@ -3,19 +3,20 @@
     display: grid; /* definierar att detta ska vara ett grid */
     grid-gap: 4px;
     grid-template-columns: repeat(12, 1fr);  /* mängden columner, alla är en 12:e del */
-    grid-template-rows: auto auto auto auto; /*hur stora kolumnerna är*/
+    grid-template-rows: 50px 450px auto auto; /*hur stora kolumnerna är*/
     /*margin: 10px;*/
-    padding: 20px; 
+    padding: 5px; 
   
   }
 
-  header{                   /* gör Rubrikens utformning*/
+   header{                   
     grid-column: 1 / -1;
     display: flex;
     flex-direction: row;
     text-align: center;
     grid-row: 1 / 2 ;
-    }
+   /*  height: 50vw; */
+    } 
  
   
 section{                    /* Denna skapar strukturen för allt under rubruk och meny men över fottern*/
@@ -24,6 +25,12 @@ section{                    /* Denna skapar strukturen för allt under rubruk oc
    /* display: flex;          /* placerar barnen i antingen x eller y led. Ungefär som grid bara att grid även gör det i z led*/
    flex-direction: column; 
     }
+
+   /*  aside{
+      grid-row: 3/ 6 ;
+    } */
+
+  
 
     footer{
       grid-column: 2 / 12; /* 1/ -1 */ 
@@ -39,6 +46,38 @@ section{                    /* Denna skapar strukturen för allt under rubruk oc
   
 
     @media  screen and (max-width: 760px) {
+      header{                   /* gör Rubrikens utformning*/
+        grid-column: 1 / -1;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        grid-row: 1 / 2 ;
+        }
+     
       
+    section{                    /* Denna skapar strukturen för allt under rubruk och meny men över fottern*/
+      grid-column: 3 / -1; /* 1/ -1 */ 
+       grid-row: 3/4 ;
+       /* display: flex;          /* placerar barnen i antingen x eller y led. Ungefär som grid bara att grid även gör det i z led*/
+       flex-direction: column; 
+        }
+
+        /* aside{
+          grid-column: 11/ -1;
+          grid-row: 3/ 4;
+      
+        } */
+    
+        footer{
+          grid-column: 3 / -1; /* 1/ -1 */ 
+          grid-row: 5/6; 
+         /* display: flex;
+          flex-direction: column; */
+        }
+
+        #navbar a {
+          display: none;
+        }
+
   
     }
