@@ -186,6 +186,7 @@ font-family: 'Lobster', cursive;
 }
 
 .openbtn {
+  display: none;
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
@@ -226,5 +227,12 @@ font-family: 'Lobster', cursive;
   #navbar{
     display: none;
   }
+
+
+  .openbtn {
+    display:block; 
+  }
+
+
 }
 
