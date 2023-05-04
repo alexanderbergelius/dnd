@@ -81,17 +81,19 @@ font-family: 'Lobster', cursive;
   float: left;
 }       */ 
 
+
+/* det mesta av navbar är kopierat från w3 schools */
  #navbar {
   background-color: #333;
   position: fixed;
-  top: -50px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s; 
+  top: -50px; /* gömmer min navbar ''over'' sidan */
+  width: 100%; /* tar upp hela bredden */ 
+  display: block; /* startar påen ny linje och tar upp hela bredden */
+  transition: top 0.3s; /* farten som naven flyttar sig på */
 } 
 
 #navbar a {
-  float: left;
+  float: left; /* positionering */ 
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -100,7 +102,7 @@ font-family: 'Lobster', cursive;
   font-size: 17px;
 } 
 
-#navbar a:hover {
+#navbar a:hover { 
   background-color: #ddd;
   color: black;
 }
@@ -110,12 +112,12 @@ font-family: 'Lobster', cursive;
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1; /* hur elementen stackar på varandra, */
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
+  overflow-x: hidden; /* ingen skroll mekanism */ 
   transition: 0.5s;
 }
 
@@ -140,17 +142,17 @@ font-family: 'Lobster', cursive;
   color: #f1f1f1;
 }
 
-.overlay .closebtn {
+.overlay .closebtn { /* när man stänger */
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
 }
 
+/* slut på nav bar*/ 
 
 
-
-
+/* sidomenyn vid media queryn */
 .sidebar {
   height: 100%;
   width: 0;
@@ -207,8 +209,10 @@ font-family: 'Lobster', cursive;
   /*  16px; */
 }
 
+/* slutet på sido menyn*/ 
+
 a{
-  color: crimson;
+  color: crimson; /* stylar alla länkar röda */
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -220,20 +224,19 @@ a{
 
 
 
-
-@media screen and ( (max-height: 450px) or (max-width:760px) ) {
+@media screen and ( (max-height: 450px) or (max-width:760px) ) { /* från w3 schools- kom med en av delarna kod jag kopierade in */
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
   }
-  #navbar{
+  #navbar{ /* gömmer naven vid toppen (inte kopierat) */
     display: none;
   }
 
 
-  .openbtn {
+  .openbtn { /* synliggör sidomenyn (inte kopierat)  */ 
     display:block; 
   }
 

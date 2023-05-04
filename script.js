@@ -21,6 +21,8 @@ function closeNav() {
 }
 */
 
+
+/* ''animationen'' för hamburgar menyn */
 function openNavHamburger() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -31,10 +33,10 @@ function closeNavHamburger() {
 
 
 
-
+/* animationen för sido menyn vid media query*/
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  /* document.getElementById("main").style.marginLeft = "250px"; */ /* tog bort detta fr att inte flytta text */
 }
 
 function closeNav() {
