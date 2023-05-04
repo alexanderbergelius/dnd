@@ -1,11 +1,11 @@
-*{margin:0;
+*{margin:0; /* browser har ''naturligt'' padding/ margin, här tar jag bort detta */
 padding: 0;}
 
-body {
+body { /* bakgrundbild för sidan */ 
   background-image: url('img/drake.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover; 
+  background-repeat: no-repeat; /* bilden upprepas inte */
+  background-attachment: fixed; /* skrollas inte med sidan */
+  background-size: cover; /* täcker hela sidan */
 }
 
 header{
@@ -18,8 +18,8 @@ font-family: 'Lobster', cursive;
  h1 { display: flex;
   flex-direction: column;
   text-align: center;
-  text-shadow: 2px 2px red;
-  font-size: 3em;
+  text-shadow: 2px 2px red; /* ger texten en skugga */
+  font-size: 3em; /* storleken på texten, em är ett annat typ av mått */
   font-family: 'Bree Serif', serif;
 font-family: 'DM Serif Display', serif;
 font-family: 'Lobster', cursive;
@@ -28,7 +28,7 @@ font-family: 'Lobster', cursive;
 } 
 
 h2 {
-  text-decoration-line: underline;
+  text-decoration-line: underline; /* ger en linje */
   text-decoration-color: red;
   font-family: 'Bree Serif', serif;
 font-family: 'DM Serif Display', serif;
@@ -37,7 +37,7 @@ font-family: 'Lobster', cursive;
 
 
 section{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); /* bakgrunds färg */
     padding: 20px;
 }
 
@@ -68,7 +68,7 @@ font-family: 'Lobster', cursive;
 }
 
 img{
-  border:10px solid #555;
+  border:10px solid #555; /* ger alla bilder en kant */ 
 }
 
 p {
@@ -204,7 +204,11 @@ font-family: 'Lobster', cursive;
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  /*  16px; */
+}
+
+a{
+  color: crimson;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

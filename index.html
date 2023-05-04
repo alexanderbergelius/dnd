@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="sv">
+<!DOCTYPE html> <!--Specifierat märkspråk-->
+<html lang="sv"> <!--sätter språket som svenska-->
 
 	<head>
-   <title> Dungons N' Dragons</title>
-		<meta charset="utf-8">
-    <meta name="viewport" content="width=device width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Lobster&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="grid.css">
-		<link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="icon" type="image/x-icon" href="img/D20.png">
+   <title> Dungons N' Drogens</title>
+		<meta charset="utf-8"> <!--teckenkodning-->
+    <meta name="viewport" content="width=device width, initial-scale=1.0"> <!--viewport-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--länk till min font-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!---->
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Lobster&display=swap" rel="stylesheet"> <!---->
+		<link rel="stylesheet" type="text/css" href="grid.css"> <!--länkar till grid-->
+		<link rel="stylesheet" type="text/css" href="style.css"> <!--länkar till style-->
+    <link rel="icon" type="image/x-icon" href="img/D20.png"> <!--länkar till min favicon-->
   </head> 
    
 
 
 
-    <body>
+    <body> <!-- semantiskt element-->
 
-        <div id="navbar">
-            <a href="#Contents">Content:</a>
+        <div id="navbar"> <!-- min nav bar--> 
+            <a href="#Contents">Topic:</a> <!--länkar inom sidorna till de olika ämnena-->
             <a href="#game">The game</a>
             <a href="#play">How to play</a>
             <a href="#characters">Characters</a>
@@ -27,13 +27,13 @@
 
           
 
-        <div class="container">
+        <div class="container"> <!-- använder en inringande div för att i den definiera grid-->
 
-        <header>
-            <div id="myNav" class="overlay">
+        <header> <!--nedan är kopierat från w3 schools men är min hamburgar meny-->
+            <div id="myNav" class="overlay"> 
             <a href="javascript:void(0)" class="closebtn" onclick="closeNavHamburger()">&times;</a>
             <div class="overlay-content">
-            <a href="index.html">DnD</a>
+            <a href="index.html">DnD</a> <!--länkar mellan de olika sidorna-->
             <a href="me.html">Experiences</a>
             </div>
             </div>
@@ -44,16 +44,15 @@
 
 
 
-        <div id="mySidebar" class="sidebar">
+        <div id="mySidebar" class="sidebar"> <!--min sido meny som har samma innehåll som naven men som först kommer in vid media queryn-->
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
+          <a href="#game">The game</a>
+            <a href="#play">How to play</a>
+            <a href="#characters">Characters</a>
         </div>
         
         <div id="main">
-          <button class="openbtn" onclick="openNav()">Content</button>  
+          <button class="openbtn" onclick="openNav()">Topics:</button>  
         </div>
 
 
@@ -137,10 +136,17 @@
               <li> Phone: 0000-000-000</li>
               <li> Adress: Ooga Booga ave.</li>
             </ul>
+            <br>
+            <h3> Go to:</h3>
+            <ul>
+             <li> <a href="me.html">Experiences</a> </li>
+             <li> <a href="index.html"> To the top:</a></li>
+            </ul>
+            
         </footer>   
           
 
-        <script src="script.js"></script>
+        <script src="script.js"></script> <!--länkar till script-->
     </div>
     </body>
     </html>
