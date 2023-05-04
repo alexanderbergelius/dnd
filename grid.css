@@ -62,7 +62,7 @@ section{                    /* Denna skapar strukturen för allt under rubruk oc
         }
      
       
-    section{                    /* Denna skapar strukturen för allt under rubruk och meny men över fottern*/
+    section{                    /* Denna sklapar strukturen för allt under rubruk och meny men över fottern*/
       grid-column: 4 / -1; /* 1/ -1 */ 
        grid-row: 3 / 4 ;
        /* display: flex;          /* placerar barnen i antingen x eller y led. Ungefär som grid bara att grid även gör det i z led*/
