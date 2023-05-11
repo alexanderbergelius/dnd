@@ -54,6 +54,14 @@ img{
   border:10px solid #555; /* ger alla bilder en kant */ 
 }
 
+#drakebild{
+  width: 40% ;
+}
+
+#partybild{
+  width: 100% ;
+}
+
 p {
   font-family: 'Bree Serif', serif;
 font-family: 'DM Serif Display', serif;
