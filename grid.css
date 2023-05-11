@@ -66,7 +66,7 @@ section{                    /* Denna skapar strukturen för allt under rubruk oc
         }
 
         #navbar a {
-          display: none; /* genom detta gömmer jag min navbar i toppen av sidan*/
+          display: none; /* genom detta SÅ gömmer jag min navbar i toppen av sidan*/
         }
 
   

@@ -51,16 +51,16 @@ font-family: 'Lobster', cursive;
 }
 
 img{
-  border:10px solid #555; /* ger alla bilder en kant */ 
+  border:10px solid #555; /* ger alla bilderNA en kant */ 
 }
 
 #drakebild{
   width: 40% ;
 }
 
-#partybild{
+  #partybild{
   width: 100% ;
-}
+} 
 
 p {
   font-family: 'Bree Serif', serif;
