@@ -2,7 +2,7 @@
 padding: 0;}
 
 body { /* bakgrundbild för sidan */ 
-  background-image: url('img/drake.png');
+  background-image: url('img/drake.webp');
   background-repeat: no-repeat; /* bilden upprepas inte */
   background-attachment: fixed; /* skrollas inte med sidan */
   background-size: cover; /* täcker hela sidan */
